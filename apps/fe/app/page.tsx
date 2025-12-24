@@ -84,7 +84,7 @@ export default function Home() {
               <h2 className="text-3xl font-bold text-center font-mono">яαη∂σм ¢σιη</h2>
               <div className="flex-1 flex justify-end">
                 <a 
-                  href="https://x.com/randomnioc" 
+                  href="https://x.com/randomnoic" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-5xl hover:scale-110 transition-transform duration-200 leading-none"
