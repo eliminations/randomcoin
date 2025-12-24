@@ -1,12 +1,7 @@
 {
   "buildCommand": "cd apps/fe && pnpm install && pnpm build",
-  "outputDirectory": "apps/fe/out",
-  "framework": null,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "installCommand": "pnpm install",
+  "framework": "nextjs",
+  "rootDirectory": "apps/fe"
 }
 
