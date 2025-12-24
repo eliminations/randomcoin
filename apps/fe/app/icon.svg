@@ -1,0 +1,23 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rainbowBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff0000;stop-opacity:1" />
+      <stop offset="16.67%" style="stop-color:#ff7f00;stop-opacity:1" />
+      <stop offset="33.33%" style="stop-color:#ffff00;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00ff00;stop-opacity:1" />
+      <stop offset="66.67%" style="stop-color:#0000ff;stop-opacity:1" />
+      <stop offset="83.33%" style="stop-color:#4b0082;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9400d3;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Rainbow border circle (thick border ~4px) -->
+  <circle cx="32" cy="32" r="30" fill="url(#rainbowBorder)" stroke="none"/>
+  
+  <!-- White inner circle -->
+  <circle cx="32" cy="32" r="22" fill="white"/>
+  
+  <!-- Text: яαη∂σм ¢σιη (centered, optimized for small sizes) -->
+  <text x="32" y="38" font-family="Arial, sans-serif" font-size="11" font-weight="900" text-anchor="middle" fill="#000000" dominant-baseline="middle">яαη∂σм</text>
+  <text x="32" y="48" font-family="Arial, sans-serif" font-size="11" font-weight="900" text-anchor="middle" fill="#000000" dominant-baseline="middle">¢σιη</text>
+</svg>

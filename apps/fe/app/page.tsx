@@ -70,24 +70,24 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background relative overflow-x-hidden">
       {/* Header */}
-      <header className="relative z-50 px-4 py-4">
+      <header className="relative z-50 w-full">
         <div 
-          className="max-w-7xl mx-auto p-1"
+          className="w-full p-2"
           style={{
             borderRadius: 0,
             background: 'linear-gradient(90deg, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3)',
           }}
         >
-          <div className="bg-background/90 backdrop-blur-md px-6 py-4" style={{ borderRadius: 0 }}>
+          <div className="bg-background/90 backdrop-blur-md px-6 py-6" style={{ borderRadius: 0 }}>
             <div className="flex justify-between items-center">
               <div className="flex-1"></div>
-              <h2 className="text-2xl font-bold text-center font-mono">яαη∂σм ¢σιη</h2>
+              <h2 className="text-3xl font-bold text-center font-mono">яαη∂σм ¢σιη</h2>
               <div className="flex-1 flex justify-end">
                 <a 
                   href="https://x.com/randomnioc" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="text-4xl hover:scale-110 transition-transform duration-200 leading-none"
+                  className="text-5xl hover:scale-110 transition-transform duration-200 leading-none"
                   aria-label="Follow on X"
                   style={{ fontFeatureSettings: '"liga" off' }}
                 >
