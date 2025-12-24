@@ -1,0 +1,14 @@
+{
+  "buildCommand": "pnpm install && cd apps/fe && pnpm build",
+  "outputDirectory": "apps/fe/out",
+  "installCommand": "pnpm install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
+
