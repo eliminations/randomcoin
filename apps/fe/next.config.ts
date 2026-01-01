@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Using Vercel's native Next.js hosting
+  output: 'export', // Enable static export for GitHub Pages
   images: {
-    unoptimized: true,
+    unoptimized: true, // Required for static export
   },
 };
 
